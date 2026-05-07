@@ -233,7 +233,7 @@ h1 , h3{
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    background-color: rgb(177, 177, 167);
+    background-color: rgb(209, 209, 202);
     line-height: 30px;
 
     transition: var(--transition);
@@ -253,10 +253,10 @@ h1 , h3{
 }
 .sec3Card2 .p1Sec3{
     margin-bottom: 20px;
-    line-height: 2;
+    line-height: 1.2;
 }
 .sec3Card2 .p2Sec3{
-    margin-bottom: 10px;
+    margin: 30px 0 10px;
     /* line-height: 2; */
 }
 
@@ -341,7 +341,8 @@ h1 , h3{
     font-size: var(--font-size);
 }
 .sec5Title p{
-    line-height: 2;
+    line-height: 1.2;
+    margin-top: 8px;
 }
 .sec5Container{
     display: flex;
@@ -452,7 +453,7 @@ h1 , h3{
     .sec5Card1{
         width: 60vw;
         height: 200px;
-        margin-bottom: 50px;
+        margin-bottom: 40px;
     }
     .inputsec5 input{
         width: 100%;
@@ -496,7 +497,7 @@ h1 , h3{
     border-radius: 50%;
     line-height: 30px;
 
-    background-color: rgb(177, 177, 167);
+    background-color: rgb(209, 209, 202);
     transition: var(--transition);
 }
 .footerIcons i:hover{

@@ -75,6 +75,10 @@ h1 , h3{
 
 }
 @media (max-width:768px) {
+    .section1{
+        height: 50vh;
+        width: 100%;
+    }
     .sec1title{
         width: 280px;
         height: 200px;
@@ -181,9 +185,8 @@ h1 , h3{
 /* /////////////////////////////////////////////////////////////// sec2 end */
 
 .section3{
-    height: 60vh;
+    height: 50vh;
     margin: 50px 0;
-
     display: flex;
     justify-content: center;
     /* background-color: green; */
@@ -302,7 +305,7 @@ h1 , h3{
 
 /* //////////////////////////////////////////////////////////////// sec4 end */
 .section5{
-    height: 75vh;
+    height: 60vh;
 
     display: flex;
     justify-content: center;
@@ -315,7 +318,7 @@ h1 , h3{
     /* background-color: aquamarine; */
 }
 .sec5Title{
-    width: 400px;
+    width: 300px;
     height: 15vh;
     display: flex;
     flex-direction: column;
@@ -420,21 +423,21 @@ h1 , h3{
 @media (max-width:768px){
 
     .section5{
-     min-height: 600px;
+     min-height: 1000px;
     }
     .sec5Container{
      flex-wrap: wrap;
     }
     .sec5title{
-        width: 290px;
+        width: 100px;
         height: 200px;
-        }
+    }
  
  }
 
 /* /////////////////////////////////////////////////////////////////sec5 end */
 .section6 {
-    height: 30vh;
+    height: 25vh;
 
     display: flex;
     flex-direction: column;
